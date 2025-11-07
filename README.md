@@ -1,16 +1,34 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 React + Redux Toolkit Form Validation
 
-Currently, two official plugins are available:
+Interactive Contact Form built with React, Redux Toolkit, React Hook Form and Yup for validation.
+Form data is saved in Redux state and sent to a fake server (JSONPlaceholder).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo: https://form-validation-redux.vercel.app/
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Form validation using Yup and React Hook Form
 
-## Expanding the ESLint configuration
+✅ State management with Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Async form submission to a server endpoint
+
+✅ Loading and error handling
+
+✅ Display submitted data from Redux
+
+Technologies
+
+React 18
+
+Redux Toolkit
+
+React Hook Form
+
+Yup
+
+Tailwind CSS
+
+Vite
